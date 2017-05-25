@@ -18,7 +18,7 @@ class Login extends React.Component{
     return (
       <div>
         <GoogleLogin
-          clientId='99513598536-p9btb20c1fhjb1hkh4io7r72o708s4kp.apps.googleusercontent.com'
+          clientId='99513598536-f11d04t9vuil18atg0u72omg5k3p8elo.apps.googleusercontent.com'
           tag='p'
           style={{all: 'inherit'}}
           buttonText="Login"
@@ -32,3 +32,5 @@ class Login extends React.Component{
 
 export default connect(null, { googleAuthLogin })(Login);
 
+// '99513598536-f11d04t9vuil18atg0u72omg5k3p8elo.apps.googleusercontent.com'  heroku
+// '99513598536-p9btb20c1fhjb1hkh4io7r72o708s4kp.apps.googleusercontent.com' localhost8080
