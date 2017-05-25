@@ -1,0 +1,16 @@
+$bootstrap-sass-asset-helper: true;
+@import "../node_modules/bootstrap-sass/assets/stylesheets/bootstrap";
+
+.mainBox{
+	margin-top: 20px;
+}
+
+.fa-heart{
+	color: red;
+}
+
+.picBox{
+	&:hover{
+		box-shadow: 1px 1px 10px #999999;
+	}
+}
