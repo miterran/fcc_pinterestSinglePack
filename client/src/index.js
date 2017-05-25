@@ -14,9 +14,6 @@ import AllPicsPage from './container/AllPicsPage'
 import MyPicPage from './container/MyPicPage'
 import requireAuth from './utils/requireAuth';
 
-import axios from 'axios'
-axios.defaults.baseURL = 'http://localhost:8080'
-
 ReactDOM.render(
 	<Provider store={store}>
 	<Router history={createBrowserHistory()}>
