@@ -4,15 +4,7 @@
   "description": "Starter project for an ES6 RESTful Express API",
   "main": "dist",
   "scripts": {
-    "fire": "concurrently \"npm run build\" \"npm run start\"",
-    "start": "concurrently \"npm run server\" \"npm run client\"",
-    "server": "./node_modules/babel-cli/bin/babel-node.js dist/index.js",
-    "client": "./node_modules/babel-cli/bin/babel-node.js start-client.js",
-    "dev": "nodemon -w server --exec \"babel-node server --presets es2015,stage-0\"",
-    "test": "eslint server",
-    "buildAll": "concurrently \"npm run buildServer\" \"npm run buildClient\"",
-    "buildServer": "babel server -s -D -d dist --presets es2015,stage-0",
-    "buildClient": "./node_modules/babel-cli/bin/babel-node.js build-client.js"
+    "start": "./node_modules/babel-cli/bin/babel-node.js dist/index.js"
   },
   "author": "Jason Miller <jason@developit.ca>",
   "license": "MIT",
